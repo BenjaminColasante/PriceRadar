@@ -18,7 +18,7 @@ function App() {
     minWidth: '100vw',
     width: '100%',
     height: 'auto',
-    paddingTop: '60px',
+    paddingTop: '60px'
   };
 
   return (
