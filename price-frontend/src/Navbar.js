@@ -4,8 +4,8 @@ import logo from "./logo.png";
 
 const Navbar = () => {
   const navigate = useNavigate();
-  const [homeBtnColor, setHomeBtnColor] = useState("#444");
-  const [savedBtnColor, setSavedBtnColor] = useState("#444");
+  const [homeBtnColor, setHomeBtnColor] = useState("#2b2b2b");
+  const [savedBtnColor, setSavedBtnColor] = useState("#2b2b2b");
 
   return (
     <div
@@ -41,7 +41,7 @@ const Navbar = () => {
         <button
           onClick={() => navigate("/")}
           onMouseEnter={() => setHomeBtnColor("#666")}
-          onMouseLeave={() => setHomeBtnColor("#444")}
+          onMouseLeave={() => setHomeBtnColor("#2b2b2b")}
           onMouseDown={() => setHomeBtnColor("#888")}
           onMouseUp={() => setHomeBtnColor("#666")}
           style={{
@@ -60,7 +60,7 @@ const Navbar = () => {
         <button
           onClick={() => navigate("/saved")}
           onMouseEnter={() => setSavedBtnColor("#666")}
-          onMouseLeave={() => setSavedBtnColor("#444")}
+          onMouseLeave={() => setSavedBtnColor("#2b2b2b")}
           onMouseDown={() => setSavedBtnColor("#888")}
           onMouseUp={() => setSavedBtnColor("#666")}
           style={{
