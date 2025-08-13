@@ -4,11 +4,11 @@ from walmart_scraper import fetch_walmart_items
 from amazon_scraper import fetch_amazon_items
 
 app = Flask(__name__)
-CORS(CORS(app, origins=[
-    "http://localhost:3000", 
-    "https://price-radar-khaki.vercel.app",  # Remove trailing slash
-    "https://price-radar-git-main-benjamins-projects-0d22a47c.vercel.app/"  # Add your real domain
-]))
+CORS(app, origins=[
+    "http://localhost:3000",
+    "https://price-radar-khaki.vercel.app",
+    "https://price-radar-git-main-benjamins-projects-0d22a47c.vercel.app"  # Also remove trailing slash here
+])
 
 def parse_bool(v,default=False):
     if v is None:
