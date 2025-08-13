@@ -2,6 +2,7 @@ import React, {useEffect, useMemo, useState} from "react";
 import {useLocation, useNavigate} from "react-router-dom";
 import {useBookmarks} from "./BookmarkContext";
 
+const API_BASE = process.env.REACT_APP_API_BASE || "http://127.0.0.1:5000";
 const useQuery = () => new URLSearchParams(useLocation().search);
 
 const badgeStyle = {
@@ -264,7 +265,7 @@ const ResultPage = () => {
         if (leftKey) {
           setLoadingFirst(true);
           const endpoint = mode === "category" ? "best_deals/category" : "best_deals/product";
-          const res1 = await fetch(`http://127.0.0.1:5000/${endpoint}/${encodeURIComponent(leftKey)}?${commonParams}`);
+          const res1 = await fetch(`${API_BASE}/${endpoint}/${encodeURIComponent(leftKey)}?${commonParams}`);
           const data1 = await res1.json();
           if (!res1.ok){
              throw new Error(data1.error || "Error fetching left column");
@@ -275,7 +276,7 @@ const ResultPage = () => {
         if (rightKey) {
           setLoadingSecond(true);
           const endpoint = mode === "category" ? "best_deals/category" : "best_deals/product";
-          const res2 = await fetch(`http://127.0.0.1:5000/${endpoint}/${encodeURIComponent(rightKey)}?${commonParams}`);
+          const res2 = await fetch(`${API_BASE}/${endpoint}/${encodeURIComponent(rightKey)}?${commonParams}`);
           const data2 = await res2.json();
           if (!res2.ok){
              throw new Error(data2.error || "Error fetching right column");
