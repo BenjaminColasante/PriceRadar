@@ -2,7 +2,7 @@ import React, {useEffect, useMemo, useState} from "react";
 import {useLocation, useNavigate} from "react-router-dom";
 import {useBookmarks} from "./BookmarkContext";
 
-const API_BASE = process.env.REACT_APP_API_BASE || "http://127.0.0.1:5000";
+const API_BASE = process.env.REACT_APP_API_BASE || "https://priceradar-m0mt.onrender.com";
 const useQuery = () => new URLSearchParams(useLocation().search);
 
 const badgeStyle = {
