@@ -25,19 +25,39 @@ const Navbar = () => {
         boxSizing: "border-box",
       }}
     >
-      <img
-        src={logo}
-        alt="Logo"
+      <div 
         style={{
-          height: "40px",
-          cursor: "pointer" 
+          display: "flex",
+          alignItems: "center",
+          gap: "12px",
+          cursor: "pointer"
         }}
         onClick={() => navigate("/")}
-      />
-      <div style={{ 
+      >
+        <img
+          src={logo}
+          alt="Logo"
+          style={{
+            height: "40px"
+          }}
+        />
+        <span
+          style={{
+            fontSize: "24px",
+            fontWeight: "bold",
+            color: "white",
+            paddingTop: "5px",
+            fontFamily: "Roboto, sans-serif"
+          }}
+        >
+          PriceRadar
+        </span>
+      </div>
+
+      <div style={{
         display: "flex",
-        gap: "10px" 
-        }}>
+        gap: "10px"
+      }}>
         <button
           onClick={() => navigate("/")}
           onMouseEnter={() => setHomeBtnColor("#666")}
@@ -53,6 +73,7 @@ const Navbar = () => {
             border: "none",
             cursor: "pointer",
             transition: "background-color 0.05s ease",
+            fontFamily: "Roboto, sans-serif"
           }}
         >
           Home
@@ -72,6 +93,7 @@ const Navbar = () => {
             border: "none",
             cursor: "pointer",
             transition: "background-color 0.05s ease",
+            fontFamily: "Roboto, sans-serif"
           }}
         >
           Saved Products

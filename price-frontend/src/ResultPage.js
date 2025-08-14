@@ -366,7 +366,7 @@ const ResultPage = () => {
           marginBottom: "30px",
           marginTop: "35px"
           }}>
-          {mode === "category" ? "Best Deals — Category" : "Best Deals — Product"}
+          {mode === "category" ? "Best Deals (Category)" : "Best Deals (Product)"}
         </h2>
         
         {error && (

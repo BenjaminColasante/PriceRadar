@@ -65,7 +65,7 @@ const Home = () => {
         maxWidth: "750px",
         width: "100%",
       }}>
-        <h2 style={{ textAlign: "center" }}>PriceRadar Deal Finder</h2>
+        <h2 style={{ textAlign: "center", fontFamily: "Roboto, sans-serif" }}>PriceRadar Deal Finder</h2>
 
         <div style={
           {display: "flex",
