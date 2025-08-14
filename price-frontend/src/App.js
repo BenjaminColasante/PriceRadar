@@ -18,7 +18,12 @@ function App() {
     minWidth: '100vw',
     width: '100%',
     height: 'auto',
-    paddingTop: '60px'
+    paddingTop: '60px',
+    margin: '0',
+    padding: '0',
+    position: 'absolute',
+    top: '0',
+    left: '0'
   };
 
   return (

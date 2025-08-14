@@ -364,7 +364,7 @@ const ResultPage = () => {
           textAlign: "center",
           color: "#2b2b2b",
           marginBottom: "30px",
-          marginTop: "35px"
+          marginTop: "70px"
           }}>
           {mode === "category" ? "Best Deals (Category)" : "Best Deals (Product)"}
         </h2>

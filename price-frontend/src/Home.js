@@ -54,7 +54,7 @@ const Home = () => {
     <div style={{
       display: "flex",
       justifyContent: "center",
-      marginTop: "100px",
+      marginTop: "175px",
       fontFamily: "Arial"
     }}>
       <div style={{
