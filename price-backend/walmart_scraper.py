@@ -1,6 +1,6 @@
 import requests, json
 
-API_KEY = "14f5b1601c6098bb906f6fbb70010ca47e8750f421d5791f70f8823b1630db10"
+API_KEY = "2666589d75c53f1be17121ed11d5e58a4860b988aaf76b936facc1a6e8bc0d42"
 
 def fetch_walmart_items(product_name):
     params = {
