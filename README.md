@@ -4,8 +4,12 @@ PriceRadar is a web application that helps users find the best deals for specifi
 Website: https://www.mypriceradar.com
 
 Backend Setup:
-1. Clone the repository
-2. Set up a Python virutal environment (Optional but recommended)
+1. Clone the repository<br>
+    git clone https://github.com/BenjaminColasante/PriceRadar.git<br>
+    cd PriceRadar
+2. Set up a Python virutal environment (Optional but recommended)<br>
+    python -m venv venv<br>
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
 3. Intall the Python dependencies<br>
     pip install -r requirements.txt
 4. Set up environment variables<br>
@@ -24,7 +28,7 @@ Frontend Setup:
 3. Start the React development server<br>
     npm start
 
-API key setup:
+API key setup:<br>
 This project requires a serpAPI key for its scraping capabilities. You can sign up for free at serpAPI.com and add your key to the .env file.
 
 <img width="1920" height="967" alt="PriceRadarHome" src="https://github.com/user-attachments/assets/4aedb60d-c966-48af-aaf8-3679dfb50f1f" />
