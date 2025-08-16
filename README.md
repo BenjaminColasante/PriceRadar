@@ -6,7 +6,7 @@ Website: https://www.mypriceradar.com
 Backend Setup:
 1. Clone the repository
 2. Set up a Python virutal environment (Optional but recommended)
-3. Intall the Python dependencies
+3. Intall the Python dependencies<br>
    pip install -r requirements.txt
 4. Set up environment variables
   #Copy the example file
