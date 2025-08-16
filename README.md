@@ -7,22 +7,22 @@ Backend Setup:
 1. Clone the repository
 2. Set up a Python virutal environment (Optional but recommended)
 3. Intall the Python dependencies
-  pip install -r requirements.txt
-5. Set up environment variables
+    pip install -r requirements.txt
+4. Set up environment variables
   # Copy the example file
   cp .env.example .env
   # Edit .env and add your API keys
   API_KEY = your_serpAPI_key
-6. Run app.py
+5. Run app.py
 
 Frontend Setup:
 1. Navigate to price-frontend directory and install dependencies
-  npm install
+    npm install
 2. Set up environment variables (Optional for local development)
   # Create .env.local file
-  echo "REACT_APP_API_BASE=http://localhost:5000" > .env.local
+    echo "REACT_APP_API_BASE=http://localhost:5000" > .env.local
 3. Start the React development server
-  npm start
+    npm start
 
 API key setup:
 This project requires a serpAPI key for its scraping capabilities. You can sign up for free at serpAPI.com and add your key to the .env file.
