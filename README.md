@@ -1,26 +1,27 @@
 # Price Radar
 PriceRadar is a web application that helps users find the best deals for specific products and categories available on select online retailers. It provides up-to-date information on pricing, availability, rating, and shipping for products sold on Walmart and Amazon, with options to filter items based on desired specifications. PriceRadar enables users to compare products side by side and save items for future reference, ensuring they stay informed about the details of their favorite items.
 
+You can try out the project using the following link.
 Website: https://www.mypriceradar.com
 
 Backend Setup:
 1. Clone the repository<br>
     git clone https://github.com/BenjaminColasante/PriceRadar.git<br>
     cd PriceRadar
-2. Set up a Python virutal environment (Optional but recommended)<br>
+2. Set up a Python virtual environment (Optional but recommended)<br>
     python -m venv venv<br>
     source venv/bin/activate  # On Windows: venv\Scripts\activate
-3. Intall the Python dependencies<br>
+3. Install the Python dependencies<br>
     pip install -r requirements.txt
 4. Set up environment variables<br>
     #Copy the example file<br>
     cp .env.example .env<br>
-    #Edit .env and add your API keys<br>
+    #Edit .env by adding your API keys<br>
     API_KEY = your_serpAPI_key
 5. Run app.py
 
 Frontend Setup:
-1. Navigate to price-frontend directory and install dependencies<br>
+1. Navigate to the price-frontend directory and install dependencies<br>
     npm install
 2. Set up environment variables (Optional for local development)<br>
   #Create .env.local file<br>
