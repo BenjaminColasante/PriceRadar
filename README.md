@@ -7,21 +7,21 @@ Backend Setup:
 1. Clone the repository
 2. Set up a Python virutal environment (Optional but recommended)
 3. Intall the Python dependencies<br>
-   pip install -r requirements.txt
-4. Set up environment variables
-  #Copy the example file
-  cp .env.example .env
-  #Edit .env and add your API keys
-  API_KEY = your_serpAPI_key
+    pip install -r requirements.txt
+4. Set up environment variables<br>
+    #Copy the example file<br>
+    cp .env.example .env<br>
+    #Edit .env and add your API keys<br>
+    API_KEY = your_serpAPI_key
 5. Run app.py
 
 Frontend Setup:
-1. Navigate to price-frontend directory and install dependencies
+1. Navigate to price-frontend directory and install dependencies<br>
     npm install
-2. Set up environment variables (Optional for local development)
-  #Create .env.local file
+2. Set up environment variables (Optional for local development)<br>
+  #Create .env.local file<br>
     echo "REACT_APP_API_BASE=http://localhost:5000" > .env.local
-3. Start the React development server
+3. Start the React development server<br>
     npm start
 
 API key setup:
