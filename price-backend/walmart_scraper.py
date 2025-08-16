@@ -1,6 +1,9 @@
 import requests, json
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
-API_KEY = "2666589d75c53f1be17121ed11d5e58a4860b988aaf76b936facc1a6e8bc0d42"
+API_KEY = os.getenv('API_KEY')
 
 def fetch_walmart_items(product_name):
     params = {
