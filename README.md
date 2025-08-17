@@ -7,8 +7,10 @@ You can try PriceRadar right now using the following link: https://www.mypricera
 
 Backend Setup:
 1. Clone the repository<br>
+'''
     git clone https://github.com/BenjaminColasante/PriceRadar.git<br>
     cd PriceRadar
+'''
 2. Set up a Python virtual environment (Optional but recommended)<br>
     python -m venv venv<br>
     source venv/bin/activate  # On Windows: venv\Scripts\activate
