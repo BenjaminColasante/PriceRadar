@@ -2,10 +2,29 @@
 ## Project Overview
 PriceRadar is a web application that helps users find the best deals for specific products and categories available on select online retailers. It provides up-to-date information on pricing, availability, rating, and shipping for products sold on Walmart and Amazon, with options to filter items based on desired specifications. PriceRadar enables users to compare products side by side and save items for future reference, ensuring they stay informed about the details of their favorite items.
 
-You can try PriceRadar right now using the following link: https://www.mypriceradar.com
+You can try PriceRadar right now using the following link: [https://www.mypriceradar.com](https://www.mypriceradar.com)
+
+## Features
+* Real-time scraping from Walmart and Amazon
+* Compare products or categories side by side
+* Filter by price, rating, stock, shipping, and delivery options
+* Bookmark favorite items for future reference
+* Fully deployed with Vercel frontend and Render backend
+
+## Prerequisites
+Before running the project locally, ensure you have the following installed:<br>
+
+**Backend (Flask / Python)** <br>
+* Python 3.9+  
+* pip (Python package manager)  
+
+**Frontend (React / Node.js)** <br>
+* Node.js
+* npm (Packaged with with Node.js)
+
 
 ## Local Development Setup 
-Backend Setup:
+Backend Setup:<br>
 **1. Clone the repository:**<br>
 ```
 git clone https://github.com/BenjaminColasante/PriceRadar.git
@@ -24,9 +43,12 @@ cp .env.example .env
 # Edit .env by adding your API key
 API_KEY = your_serpAPI_key
 ```
-**4. Run app.py**
+**4. Run the backend:**<br>
+```
+python app.py
+```
 
-Frontend Setup:
+Frontend Setup:<br>
 **1. Navigate to the price-frontend directory and install dependencies:**<br>
 ```
 cd price-frontend
