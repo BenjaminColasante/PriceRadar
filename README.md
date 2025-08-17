@@ -1,6 +1,6 @@
 # PriceRadar
 ## Project Overview
-PriceRadar is a web application that helps users find the best deals for products and categories available on Walmart and Amazon. It provides up-to-date information on pricing, availability, rating, and shipping, with options to filter, compare, and save products for a fully customizable experience. PriceRadar was developed with
+PriceRadar is a web application that helps users find the best deals for products and categories available on Walmart and Amazon. It provides up-to-date information on pricing, availability, rating, and shipping, with options to filter, compare, and save products for a fully customizable experience. PriceRadar was developed with a Flask backend and a React frontend.
 
 You can try PriceRadar right now using the following link: [https://www.mypriceradar.com](https://www.mypriceradar.com)
 
