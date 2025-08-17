@@ -24,7 +24,7 @@ Before running the project locally, ensure you have the following installed:<br>
 
 
 ## Local Development Setup 
-Backend Setup:<br>
+### Backend Setup:
 **1. Clone the repository:**<br>
 ```
 git clone https://github.com/BenjaminColasante/PriceRadar.git
@@ -48,7 +48,7 @@ API_KEY = your_serpAPI_key
 python app.py
 ```
 
-Frontend Setup:<br>
+### Frontend Setup:
 **1. Navigate to the price-frontend directory and install dependencies:**<br>
 ```
 cd price-frontend
