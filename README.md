@@ -6,31 +6,41 @@ You can try PriceRadar right now using the following link: https://www.mypricera
 # Local Development Setup
 
 Backend Setup:
-1. Clone the repository<br>
+1. Clone the repository:<br>
 ```
-    git clone https://github.com/BenjaminColasante/PriceRadar.git<br>
-    cd PriceRadar
+git clone https://github.com/BenjaminColasante/PriceRadar.git<br>
+cd PriceRadar
 ```
-2. Set up a Python virtual environment (Optional but recommended)<br>
-    python -m venv venv<br>
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
-3. Install the Python dependencies<br>
-    pip install -r requirements.txt
-4. Set up environment variables<br>
-    #Copy the example file<br>
-    cp .env.example .env<br>
-    #Edit .env by adding your API keys<br>
-    API_KEY = your_serpAPI_key
-5. Run app.py
+2. Navigate to the price-backend directory and install the Python dependencies:<br>
+```
+cd price-backend
+pip install -r requirements.txt
+```
+3. Set up environment variables:<br>
+```
+# Copy the example file<br>
+cp .env.example .env<br>
+
+# Edit .env by adding your API key<br>
+API_KEY = your_serpAPI_key
+```
+4. Run app.py
 
 Frontend Setup:
-1. Navigate to the price-frontend directory and install dependencies<br>
-    npm install
+1. Navigate to the price-frontend directory and install dependencies:<br>
+```
+cd price-frontend
+npm install
+```
 2. Set up environment variables (Optional for local development)<br>
-  #Create .env.local file<br>
-    echo "REACT_APP_API_BASE=http://localhost:5000" > .env.local
+```
+#Create .env.local file<br>
+echo "REACT_APP_API_BASE=http://localhost:5000" > .env.local
+```
 3. Start the React development server<br>
-    npm start
+```
+npm start
+```
 
 API key setup:<br>
 This project requires a serpAPI key for its scraping capabilities. You can sign up for free at serpAPI.com and add your key to the .env file.
