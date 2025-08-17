@@ -56,8 +56,8 @@ npm install
 ```
 **2. Set up environment variables (Optional for local development):**<br>
 ```
-#Create .env.local file
-echo "REACT_APP_API_BASE=http://localhost:5000" > .env.local
+# Create .env.local and add:
+REACT_APP_API_BASE=http://localhost:5000
 ```
 **3. Start the React development server:**<br>
 ```
