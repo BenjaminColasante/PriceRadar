@@ -1,15 +1,15 @@
-# Price Radar
+# PriceRadar
 ## Project Overview
-PriceRadar is a web application that helps users find the best deals for specific products and categories available on select online retailers. It provides up-to-date information on pricing, availability, rating, and shipping for products sold on Walmart and Amazon, with options to filter items based on desired specifications. PriceRadar enables users to compare products side by side and save items for future reference, ensuring they stay informed about the details of their favorite items.
+PriceRadar is a web application that helps users find the best deals for products and categories available on Walmart and Amazon. It provides up-to-date information on pricing, availability, rating, and shipping, with options to filter, compare, and save products for a fully customizable experience. PriceRadar was developed with
 
 You can try PriceRadar right now using the following link: [https://www.mypriceradar.com](https://www.mypriceradar.com)
 
 ## Features
-* Real-time scraping from Walmart and Amazon
+* Real-time scraping from Walmart and Amazon (Flask backend)
+* Frontend built with React
 * Compare products or categories side by side
 * Filter by price, rating, stock, shipping, and delivery options
 * Bookmark favorite items for future reference
-* Fully deployed with Vercel frontend and Render backend
 
 ## Prerequisites
 Before running the project locally, ensure you have the following installed:<br>
@@ -20,7 +20,7 @@ Before running the project locally, ensure you have the following installed:<br>
 
 **Frontend (React / Node.js)** <br>
 * Node.js
-* npm (Packaged with with Node.js)
+* npm (Packaged with Node.js)
 
 
 ## Local Development Setup 
