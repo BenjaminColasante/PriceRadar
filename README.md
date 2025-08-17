@@ -1,49 +1,48 @@
 # Price Radar
+## Project Overview
 PriceRadar is a web application that helps users find the best deals for specific products and categories available on select online retailers. It provides up-to-date information on pricing, availability, rating, and shipping for products sold on Walmart and Amazon, with options to filter items based on desired specifications. PriceRadar enables users to compare products side by side and save items for future reference, ensuring they stay informed about the details of their favorite items.
 
 You can try PriceRadar right now using the following link: https://www.mypriceradar.com
 
-# Local Development Setup
-
+## Local Development Setup 
 Backend Setup:
-1. Clone the repository:<br>
+**1. Clone the repository:**<br>
 ```
-git clone https://github.com/BenjaminColasante/PriceRadar.git<br>
+git clone https://github.com/BenjaminColasante/PriceRadar.git
 cd PriceRadar
 ```
-2. Navigate to the price-backend directory and install the Python dependencies:<br>
+**2. Navigate to the price-backend directory and install the Python dependencies:**<br>
 ```
 cd price-backend
 pip install -r requirements.txt
 ```
-3. Set up environment variables:<br>
+**3. Set up environment variables:**<br>
 ```
-# Copy the example file<br>
-cp .env.example .env<br>
+# Copy the example file
+cp .env.example .env
 
-# Edit .env by adding your API key<br>
+# Edit .env by adding your API key
 API_KEY = your_serpAPI_key
 ```
-4. Run app.py
+**4. Run app.py**
 
 Frontend Setup:
-1. Navigate to the price-frontend directory and install dependencies:<br>
+**1. Navigate to the price-frontend directory and install dependencies:**<br>
 ```
 cd price-frontend
 npm install
 ```
-2. Set up environment variables (Optional for local development)<br>
+**2. Set up environment variables (Optional for local development):**<br>
 ```
-#Create .env.local file<br>
+#Create .env.local file
 echo "REACT_APP_API_BASE=http://localhost:5000" > .env.local
 ```
-3. Start the React development server<br>
+**3. Start the React development server:**<br>
 ```
 npm start
 ```
 
-API key setup:<br>
-This project requires a serpAPI key for its scraping capabilities. You can sign up for free at serpAPI.com and add your key to the .env file.
+Once the program is running, you can access the application in your browser at [http://localhost:3000](http://localhost:3000).
 
 <img width="1920" height="967" alt="PriceRadarHome" src="https://github.com/user-attachments/assets/4aedb60d-c966-48af-aaf8-3679dfb50f1f" />
 <img width="1905" height="952" alt="PriceRadarSearch" src="https://github.com/user-attachments/assets/1d42b51d-7461-4e5f-9dc9-90703d0aeb21" />
